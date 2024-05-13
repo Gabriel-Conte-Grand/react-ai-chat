@@ -1,5 +1,4 @@
 import Markdown from "react-markdown"
-
 interface Props {
   text: string
 }
@@ -7,11 +6,11 @@ interface Props {
 export const GptMessage = ({ text }: Props) => {
   return (
     <div className='col-start-1 col-end-9 p-3 rounded-lg'>
-      <div className='flex flex-row items-start'>
-        <div className='flex items-center justify-center h-10 w-10 rounded-full bg-indigo-400 flex-shrink-0 font-poppins'>
+      <div className='flex flex-col md:flex-row items-start'>
+        <div className='flex mb-2 md:mb-0 items-center justify-center h-10 w-10 rounded-full bg-indigo-400 flex-shrink-0 font-poppins'>
           G
         </div>
-        <div className='relative ml-3 text-sm bg-black bg-opacity-25 pt-3 pb-2 px-4 shadow rounded-xl'>
+        <div className='relative ml-3  text-xs md:text-sm bg-black bg-opacity-25 pt-3 pb-2 px-4 shadow rounded-xl'>
           <Markdown>{text}</Markdown>
         </div>
       </div>

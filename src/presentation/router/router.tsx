@@ -18,7 +18,7 @@ export const menuRoutes = [
     icon: "fa-solid fa-code-compare",
     title: "Pros & Cons",
     description: "Comparar pros y contras",
-    component: <ProsConsPage />,
+    component: <ProsConsStreamPage />,
   },
   {
     to: "/image-generation",
