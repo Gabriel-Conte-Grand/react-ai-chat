@@ -4,7 +4,6 @@ import {
   GptOrthographyMessage,
   MyMessage,
   TextMessageBox,
-  TextMessageBoxFile,
   TypingLoader,
 } from "../../components"
 import { orthographyUseCase } from "../../../core/use-cases"

@@ -5,12 +5,7 @@ interface Props {
   onImageSelected?: (imageURL: string) => void
 }
 
-export const GptMessageImage = ({
-  text,
-  imageURL,
-  alt,
-  onImageSelected,
-}: Props) => {
+export const GptMessageImage = ({ imageURL, alt, onImageSelected }: Props) => {
   return (
     <div className='col-start-1 col-end-9 p-3 rounded-lg'>
       <div className='flex flex-row items-start'>

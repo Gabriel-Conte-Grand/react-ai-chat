@@ -1,9 +1,9 @@
 import { createBrowserRouter, Navigate } from "react-router-dom"
 import {
-  AssistantPage,
+  // AssistantPage,
+  // ImageTunningPage,
   AudioToTextPage,
   ImageGenerationPage,
-  ImageTunningPage,
   OrthographyPage,
   ProsConsPage,
   ProsConsStreamPage,

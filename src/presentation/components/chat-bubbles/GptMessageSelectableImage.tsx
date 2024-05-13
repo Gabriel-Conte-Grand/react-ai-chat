@@ -31,7 +31,7 @@ Props) => {
     originalImageRef.current = image
 
     image.onload = () => {
-      ctx?.drawImage(image, 0, 0, canvas?.width, canvas?.height)
+      ctx?.drawImage(image, 0, 0, canvas!.width, canvas!.height)
     }
   }, [])
 
